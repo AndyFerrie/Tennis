@@ -6,8 +6,8 @@ describe 'tennis' do
         #     expect{score('')}.to raise_error
         # end
         
-        it 'returns a score for Player 1 & Player 2' do
-            expect(score()).to eq("Player 1 score: Player 2 score:")
+        it 'can score a new game where no player has scored yet' do
+            expect(score()).to eq("Love-Love")
         end
 
 end
